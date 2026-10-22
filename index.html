@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b111a">
+  <meta name="description" content="Explore DanDesk: one native Linux desktop shell, everyday applications, and connected system tools. A concise tour with screenshots from the live 4K desktop.">
+  <meta property="og:title" content="DanDesk — One native shell. A whole desktop.">
+  <meta property="og:description" content="A shared Vulkan renderer. Native applications. A connected desktop. Explore DanDesk through 32 live system views.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://zamadatix.github.io/dandesk-showcase/assets/hero-1800.webp">
+  <title>DanDesk — One native shell. A whole desktop.</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#overview">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#overview" aria-label="DanDesk home"><span class="mark" aria-hidden="true">D<span>↗</span></span>DanDesk</a>
+    <nav aria-label="Main navigation"><a href="#applications">Applications</a><a href="#desktop">Desktop tour</a><a href="#inside">Inside DanDesk</a></nav>
+    <span class="header-note"><i></i> A living desktop</span>
+  </header>
+  <main>
+    <section id="overview" class="overview wrap">
+      <div class="eyebrow"><span class="rule"></span> A PERSONAL LINUX DESKTOP, BUILT TOGETHER</div>
+      <h1>One native shell.<br><span>A whole desktop.</span></h1>
+      <div class="intro-row">
+        <p class="summary">DanDesk brings the desktop shell, everyday applications, and system controls into one native Wayland application. A shared Vulkan renderer, theme system, and text engine tie it all together—from the taskbar to a document’s pixels. Dense interfaces, per-monitor HDR, GPU image reconstruction, and native input sharing make it feel built as a system.</p>
+        <a class="jump-link" href="#applications">Explore the components <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="facts"><span>C23 + Vulkan</span><span>Native Wayland</span><span>Shared controls & themes</span><span>Hyprland window management</span></div>
+    </section>
+
+    <section class="hero-view wrap" aria-label="The live DanDesk desktop">
+      <div class="image-toolbar"><span><i class="live-dot"></i> THE LIVE DESKTOP</span><span>3840 × 2160 <b>·</b> 22 OCT 2026</span></div>
+      <button class="hero-image" data-image="hero" data-caption="TaskManager, Viewer, FileManager and Calc together on the live top 4K display." aria-label="Enlarge the live DanDesk desktop screenshot">
+        <img src="./assets/hero-1800.webp" srcset="./assets/hero-900.webp 900w, ./assets/hero-1800.webp 1800w, ./assets/hero.webp 3840w" sizes="(max-width: 1240px) 94vw, 1200px" width="3840" height="2160" alt="Four native DanDesk applications arranged on the Earth-at-night desktop: TaskManager, Viewer, FileManager and Calc." fetchpriority="high">
+        <span class="enlarge-tag">Explore the full image <span aria-hidden="true">↗</span></span>
+      </button>
+      <p class="image-note">Actual pixels from the live system. Captured through DanDesk’s official HDR path and tone-mapped to sRGB.</p>
+    </section>
+
+    <section id="applications" class="chapter wrap">
+      <div class="section-top"><span class="section-number">01 / APPLICATIONS</span><span class="section-count">Six tools. One visual language.</span></div>
+      <h2>Everyday work,<br>in familiar surroundings.</h2>
+      <p class="section-intro">The same compact controls, native windows, and rendering follow you from files to formulas.</p>
+      <div id="app-explorer" class="explorer app-explorer" aria-label="Application screenshot explorer"></div>
+      <noscript><p>Enable JavaScript to browse the application galleries. <a href="./assets/performance.webp">View TaskManager</a>, <a href="./assets/document-viewer.webp">Viewer</a>, <a href="./assets/unit-calc.webp">Calc</a>, or <a href="./assets/files.webp">FileManager</a>.</p></noscript>
+    </section>
+
+    <section id="desktop" class="chapter desktop-chapter">
+      <div class="wrap">
+        <div class="section-top"><span class="section-number">02 / THE DESKTOP</span><span class="section-count">The small tools make the whole.</span></div>
+        <h2>Everything else,<br>within reach.</h2>
+        <p class="section-intro">A native shell around your applications, useful tray panels, and controls for the machines around you. Choose a group, then a component.</p>
+        <div id="panel-explorer" class="explorer panel-explorer" aria-label="Desktop component screenshot explorer"></div>
+      </div>
+    </section>
+
+    <section id="inside" class="chapter wrap inside">
+      <div class="section-top"><span class="section-number">03 / INSIDE DANDESK</span><span class="section-count">Shared foundations, distinct responsibilities.</span></div>
+      <h2>Built as a system.</h2>
+      <div class="principles">
+        <article><span class="principle-mark">01</span><h3>One resident application</h3><p>The shell and its tools share a C23 process. Owner threads separate responsibilities; demanding numeric and codec jobs use short-lived, contained helpers.</p></article>
+        <article><span class="principle-mark">02</span><h3>One rendering foundation</h3><p>Vulkan presentation, shared text shaping, color handling, and GPU sinc image reconstruction carry across the desktop, applications, and dialogs.</p></article>
+        <article><span class="principle-mark">03</span><h3>One set of building blocks</h3><p>Settings, themes, menus, reports, editors, and accessibility semantics are shared. Hyprland, PipeWire, BlueZ, and other host services keep their own roles.</p></article>
+      </div>
+      <details class="owner-details"><summary><span>The runtime components</span><span class="details-note">21 owners · a brief map <b aria-hidden="true">+</b></span></summary><div id="owner-map" class="owner-map"></div></details>
+      <div class="closing-note"><span class="live-dot"></span><p>A personal desktop, shown as it runs.<br><span>32 selected views, captured on the top 3840 × 2160 monitor. Sample documents and messages are used in the tour; crops keep private content out of view.</span></p></div>
+    </section>
+  </main>
+  <footer class="wrap"><a class="footer-brand" href="#overview">DanDesk <span aria-hidden="true">↗</span></a><span>Live system showcase · October 2026</span><a href="https://github.com/zamadatix/dandesk-showcase" target="_blank" rel="noopener noreferrer">Showcase source <span aria-hidden="true">↗</span></a></footer>
+
+  <dialog id="image-dialog" aria-labelledby="lightbox-title">
+    <div class="lightbox-head"><div><span class="eyebrow">LIVE SYSTEM VIEW</span><h2 id="lightbox-title">DanDesk</h2></div><div class="lightbox-actions"><button id="pixel-toggle" type="button" aria-pressed="false">View at 1:1</button><a id="image-download" download href="./assets/hero.webp">Save image ↓</a><button id="close-lightbox" class="icon-button" type="button" aria-label="Close image viewer">×</button></div></div>
+    <div class="lightbox-stage"><img id="lightbox-image" alt=""></div>
+    <div class="lightbox-foot"><p id="lightbox-caption"></p><div class="lightbox-navigation"><button id="previous-image" class="icon-button" type="button" aria-label="Previous view">←</button><span id="view-counter"></span><button id="next-image" class="icon-button" type="button" aria-label="Next view">→</button></div></div>
+  </dialog>
+</body>
+</html>

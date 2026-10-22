@@ -1,0 +1,162 @@
+{
+  "archives": {
+    "width": 840,
+    "height": 730,
+    "bytes": 36640
+  },
+  "bluetooth": {
+    "width": 440,
+    "height": 420,
+    "bytes": 11620
+  },
+  "calendar": {
+    "width": 368,
+    "height": 374,
+    "bytes": 8328
+  },
+  "clipboard": {
+    "width": 440,
+    "height": 640,
+    "bytes": 15576
+  },
+  "desktop": {
+    "width": 3840,
+    "height": 2160,
+    "bytes": 288918
+  },
+  "document-viewer": {
+    "width": 1600,
+    "height": 1250,
+    "bytes": 66830
+  },
+  "emoji": {
+    "width": 420,
+    "height": 480,
+    "bytes": 23526
+  },
+  "files": {
+    "width": 1550,
+    "height": 1050,
+    "bytes": 33420
+  },
+  "guests": {
+    "width": 680,
+    "height": 290,
+    "bytes": 10572
+  },
+  "hero": {
+    "width": 3840,
+    "height": 2160,
+    "bytes": 279610
+  },
+  "image-viewer": {
+    "width": 1600,
+    "height": 1150,
+    "bytes": 67856
+  },
+  "native-dialogs": {
+    "width": 1100,
+    "height": 780,
+    "bytes": 14624
+  },
+  "network": {
+    "width": 660,
+    "height": 640,
+    "bytes": 23076
+  },
+  "notifications": {
+    "width": 440,
+    "height": 488,
+    "bytes": 21150
+  },
+  "performance": {
+    "width": 1900,
+    "height": 1250,
+    "bytes": 92400
+  },
+  "power": {
+    "width": 520,
+    "height": 215,
+    "bytes": 5422
+  },
+  "private-desktops": {
+    "width": 1000,
+    "height": 700,
+    "bytes": 13868
+  },
+  "processes": {
+    "width": 1900,
+    "height": 1250,
+    "bytes": 109512
+  },
+  "recording": {
+    "width": 480,
+    "height": 600,
+    "bytes": 18094
+  },
+  "remote-connect": {
+    "width": 1000,
+    "height": 700,
+    "bytes": 12028
+  },
+  "remote-share": {
+    "width": 1000,
+    "height": 700,
+    "bytes": 12110
+  },
+  "run": {
+    "width": 520,
+    "height": 260,
+    "bytes": 6116
+  },
+  "scientific-calc": {
+    "width": 1000,
+    "height": 750,
+    "bytes": 17444
+  },
+  "screenshot": {
+    "width": 480,
+    "height": 560,
+    "bytes": 17342
+  },
+  "settings": {
+    "width": 1550,
+    "height": 1150,
+    "bytes": 72670
+  },
+  "sharing-settings": {
+    "width": 1310,
+    "height": 470,
+    "bytes": 17812
+  },
+  "softkvm": {
+    "width": 440,
+    "height": 245,
+    "bytes": 8978
+  },
+  "sound": {
+    "width": 440,
+    "height": 430,
+    "bytes": 15662
+  },
+  "start": {
+    "width": 760,
+    "height": 960,
+    "bytes": 29246
+  },
+  "themes": {
+    "width": 1550,
+    "height": 1150,
+    "bytes": 53814
+  },
+  "unit-calc": {
+    "width": 1000,
+    "height": 750,
+    "bytes": 17368
+  },
+  "wireless": {
+    "width": 660,
+    "height": 315,
+    "bytes": 10948
+  }
+}
